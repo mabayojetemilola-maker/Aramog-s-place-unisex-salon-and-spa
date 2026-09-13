@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Booking | Aramog's Place</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">Aramog's <span>Place</span></a>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="btn-nav">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="label reveal">Get In Touch</span>
+      <h1 class="reveal reveal-d1">Contact & Booking</h1>
+      <p class="reveal reveal-d2">Book an appointment or ask us anything — we’re happy to help.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="info-cards" style="margin-bottom:48px;">
+        <div class="info-card reveal">
+          <h4>Address</h4>
+          <p>2 Oduduwa Street, Tanke<br>Ilorin, Kwara State, Nigeria</p>
+        </div>
+        <div class="info-card reveal reveal-d1">
+          <h4>Phone / WhatsApp</h4>
+          <p><a href="https://wa.me/2347062600948">+234 706 260 0948</a></p>
+        </div>
+        <div class="info-card reveal reveal-d2">
+          <h4>Instagram</h4>
+          <p><a href="https://www.instagram.com/aramog_place/" target="_blank">@aramog_place</a></p>
+        </div>
+        <div class="info-card reveal">
+          <h4>Opening Hours</h4>
+          <p>
+            Mon – Thu: 9:00 AM – 7:30 PM<br>
+            Fri – Sat: 9:00 AM – 8:00 PM<br>
+            Sunday: 12:00 PM – 7:00 PM
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-box reveal">
+          <h3>Visit or message us</h3>
+          <p>Prefer to chat first? Reach us on WhatsApp or Instagram. Walk-ins are welcome when we have space.</p>
+          <div class="contact-row">
+            <div class="icon">📍</div>
+            <div>
+              <div class="label">Location</div>
+              <div class="value">2 Oduduwa Street, Tanke, Ilorin</div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="icon">📱</div>
+            <div>
+              <div class="label">WhatsApp</div>
+              <div class="value"><a href="https://wa.me/2347062600948">+234 706 260 0948</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="icon">📸</div>
+            <div>
+              <div class="label">Instagram</div>
+              <div class="value"><a href="https://www.instagram.com/aramog_place/" target="_blank">@aramog_place</a></div>
+            </div>
+          </div>
+          <div style="margin-top:24px;display:flex;flex-direction:column;gap:10px;">
+            <a href="https://wa.me/2347062600948?text=Hello%20Aramog's%20Place%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" class="btn btn-whatsapp" style="width:100%;">Chat on WhatsApp</a>
+            <a href="https://www.instagram.com/aramog_place/" target="_blank" class="btn btn-outline" style="width:100%;">Follow on Instagram</a>
+          </div>
+        </div>
+
+        <div class="contact-box reveal reveal-d1">
+          <h3>Request a booking</h3>
+          <p>Fill this form and we’ll open WhatsApp with your details ready to send.</p>
+          <form id="bookForm">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" required placeholder="Full name">
+            </div>
+            <div class="form-group">
+              <label for="service">Service *</label>
+              <select id="service" required>
+                <option value="">Select a service</option>
+                <option>Unisex Hairstyling</option>
+                <option>Facial Treatment</option>
+                <option>Massage Therapy</option>
+                <option>Body Scrubbing</option>
+                <option>Body Waxing</option>
+                <option>Full Spa Package</option>
+                <option>Other / Not sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="text" id="date" placeholder="e.g. Saturday afternoon">
+            </div>
+            <div class="form-group">
+              <label for="note">Note (optional)</label>
+              <textarea id="note" placeholder="Anything we should know?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Booking Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Aramog's <span>Place</span></a>
+          <p>Unisex Salon & Spa · Tanke, Ilorin</p>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon–Thu: 9AM – 7:30PM</li>
+            <li>Fri–Sat: 9AM – 8PM</li>
+            <li>Sun: 12PM – 7PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Aramog's Place</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
